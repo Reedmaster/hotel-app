@@ -1,5 +1,5 @@
 <template>
-  <h1>Welcome page with vue!</h1>
+  <div class="text-3xl">Welcome page with vue!</div>
 </template>
 
 <script setup>
