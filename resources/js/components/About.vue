@@ -1,5 +1,7 @@
 <template>
-  <div class="text-red-500 text-3xl">Welcome page with vue!</div>
+  <div>
+About
+  </div>
 </template>
 
 <script setup>

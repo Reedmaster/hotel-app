@@ -12,7 +12,7 @@
     </head>
     <body class="antialiased">
         <div id="v-app">
-            <welcome />
+            <App />
         </div>
     </body>
 </html>
