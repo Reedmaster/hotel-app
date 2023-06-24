@@ -8,7 +8,12 @@
 </template>
 
 <script setup>
-
+// implement navbar
+// implement home page
+// implement accommodation page
+// implement see-and-do page
+// implement booking page
+// implement footer
 </script>
 
 <style lang="scss" scoped>
