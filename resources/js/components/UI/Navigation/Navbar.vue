@@ -4,13 +4,19 @@
       The Old Priory
     </div>
     <div class="flex justify-between">
-    <slot name="links"></slot>
+      <NavLink v-for="link in links" :title="link.title" :link="link.link"></NavLink>
     </div>
   </div>
 </template>
 
 <script setup>
-
+import NavLink from "./NavLink.vue";
+defineProps({
+  links: {
+    type: Array,
+    required: true,
+  }
+})
 </script>
 
 <style lang="scss" scoped>

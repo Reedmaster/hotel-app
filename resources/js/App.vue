@@ -1,13 +1,7 @@
 <template>
   <div class="text-red-500 text-3xl">Welcome page with vue!</div>
-  <Navbar>
-    <template v-slot:links>
-      <router-link to="/">Home</router-link>
-      <router-link to="/accommodation">Accommodation</router-link>
-      <router-link to="/see-and-do">See & Do</router-link>
-      <router-link to="/booking">Booking</router-link>
-    </template>
-  </Navbar>
+  <Navbar :links="navLinks" />
+
   <router-view></router-view>
 </template>
 
@@ -19,6 +13,22 @@
 // implement booking page
 // implement footer
 import Navbar from './components/UI/Navigation/Navbar.vue';
+
+const navLinks = [
+  {
+    title: 'Home',
+    link: '/'
+  },  {
+    title: 'Accommodation',
+    link: '/accommodation'
+  },  {
+    title: 'See & Do',
+    link: '/see-and-do'
+  },  {
+    title: 'Booking',
+    link: '/booking'
+  },
+]
 </script>
 
 <style lang="scss" scoped></style>
