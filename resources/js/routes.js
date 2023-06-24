@@ -1,7 +1,7 @@
-import Accommodation from '@/components/Accommodation.vue';
-import Booking from '@/components/Booking.vue';
-import Home from '@/components/Home.vue';
-import SeeAndDo from '@/components/SeeAndDo.vue';
+import Accommodation from '@/components/Pages/Accommodation.vue';
+import Booking from '@/components/Pages/Booking.vue';
+import Home from '@/components/Pages/Home.vue';
+import SeeAndDo from '@/components/Pages/SeeAndDo.vue';
 
 export const routes = [
   {
