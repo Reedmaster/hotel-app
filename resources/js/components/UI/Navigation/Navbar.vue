@@ -1,6 +1,6 @@
 <template>
-  <div class="flex h-16 items-center justify-between pr-10 pl-10 bg-priory-red text-priory-cream">
-    <div class="text-2xl">
+  <div class="fixed flex h-16 items-center justify-between pr-10 pl-10 bg-priory-red text-priory-cream">
+    <div class="text-2xl font-cardo">
       The Old Priory
     </div>
     <div class="flex justify-between">

@@ -1,5 +1,5 @@
 <template>
-  <div class="pl-2.5 flex items-center">
+  <div class="flex items-center pl-2.5">
     <router-link class="pr-2.5 font-cardo" :to="link">{{ title }}</router-link>
     <Icon icon="slash-icon" color="fill-priory-cream" class="w-4" />
   </div>

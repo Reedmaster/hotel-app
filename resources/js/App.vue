@@ -1,5 +1,4 @@
 <template>
-  <div class="text-3xl text-red-500">Welcome page with vue!</div>
   <Navbar :links="navLinks" />
 
   <router-view></router-view>
