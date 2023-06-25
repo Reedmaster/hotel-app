@@ -16,4 +16,10 @@ export default defineConfig({
             }
         })
     ],
+
+    resolve: {
+        alias: {
+            '@Images': '/resources/images/somerset_hero.webp',
+        }
+    }
 });

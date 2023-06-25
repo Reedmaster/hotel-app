@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed flex h-16 items-center justify-between pr-10 pl-10 bg-priory-red text-priory-cream">
+  <div class="fixed w-screen flex h-16 items-center justify-between pr-10 pl-10 bg-priory-red text-priory-cream">
     <div class="text-2xl font-cardo">
       The Old Priory
     </div>
