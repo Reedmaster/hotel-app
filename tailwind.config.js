@@ -7,6 +7,9 @@ module.exports = {
       'priory-red': '#742622',
       'priory-white': '#fcfce8',
       'priory-cream': '#eae2ca',
+    },
+    fontFamily: {
+      'cardo': ['Cardo', 'serif'],
     }
   },
   plugins: [],
