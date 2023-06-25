@@ -1,7 +1,7 @@
 <template>
-  <div class="p-5">
+  <div class="p-5 flex items-center">
     <router-link :to="link">{{ title }}</router-link>
-    <Icon icon="slash-icon" color="fill-priory-cream" />
+    <Icon icon="slash-icon" color="fill-priory-cream" class="w-4" />
   </div>
 </template>
 
