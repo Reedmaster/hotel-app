@@ -10,7 +10,6 @@
   "arrowParens": "always",
   "vueIndentScriptAndStyle": false,
   "endOfLine": "lf",
-  "embeddedLanguageFormatting": "auto",
   "importOrder": ["^components/(.*)$", "^[./]"],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
