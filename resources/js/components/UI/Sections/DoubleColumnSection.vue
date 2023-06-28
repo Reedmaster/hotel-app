@@ -5,7 +5,7 @@
             'flex-row-reverse': imgAlign === 'right',
         }">
             <div class="flex-1">
-                <img src="../../../../images/bedroom.jpg" alt="">
+                <img :src="img1" alt="">
             </div>
             <div class="flex-1 flex flex-col justify-center" :class="{
                 'items-end': imgAlign === 'left',
@@ -19,9 +19,10 @@
 
 <script setup>
 import Wrapper from './Wrapper.vue';
+import { computed } from 'vue';
 
-defineProps({
-    img: {
+const props = defineProps({
+    imgSrc: {
         type: String,
     },
     imgAlign: {
@@ -30,7 +31,9 @@ defineProps({
             return ['left', 'right'].includes(value);
         }
     }
-})
+});
+
+import img1 from `/resources/images/${props.imgSrc}.jpg`;
 </script>
 
 <style lang="scss" scoped></style>

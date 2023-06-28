@@ -3,7 +3,7 @@
         <img src="../../../images/somerset_hero.webp" alt="" />
     </div>
     <Spacer />
-    <DoubleColumnSection img-align="left">
+    <DoubleColumnSection img-align="left" img-src="bedroom.jgp">
         <template #text-body>
             <div class="text-center max-w-[80%]">
                 <div class="text-4xl pb-3">Lorem ipsum</div>
@@ -22,7 +22,7 @@
         </template>
     </DoubleColumnSection>
     <Spacer />
-    <DoubleColumnSection img-align="right">
+    <DoubleColumnSection img-align="right" img-link="/resources/images/bedroom.jpg">
         <template #text-body>
             <div class="text-center max-w-[80%]">
                 <div class="text-4xl pb-3">Lorem ipsum</div>
@@ -45,7 +45,6 @@
 <script setup>
 import DoubleColumnSection from '../UI/Sections/DoubleColumnSection.vue';
 import Spacer from '../UI/Sections/Spacer.vue';
-
 
 </script>
 
