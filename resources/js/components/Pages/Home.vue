@@ -3,7 +3,43 @@
         <img src="../../../images/somerset_hero.webp" alt="" />
     </div>
     <Spacer />
-    <DoubleColumnSection></DoubleColumnSection>
+    <DoubleColumnSection img-align="left">
+        <template #text-body>
+            <div class="text-center max-w-[80%]">
+                <div class="text-4xl pb-3">Lorem ipsum</div>
+                <div class="text-lg pb-6">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                </div>
+                <div class="text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex
+                    ea commodo consequat.
+                </div>
+            </div>
+        </template>
+    </DoubleColumnSection>
+    <Spacer />
+    <DoubleColumnSection img-align="right">
+        <template #text-body>
+            <div class="text-center max-w-[80%]">
+                <div class="text-4xl pb-3">Lorem ipsum</div>
+                <div class="text-lg pb-6">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                </div>
+                <div class="text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex
+                    ea commodo consequat.
+                </div>
+            </div>
+        </template>
+    </DoubleColumnSection>
 </template>
 
 <script setup>

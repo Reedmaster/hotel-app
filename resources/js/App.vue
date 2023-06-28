@@ -1,7 +1,8 @@
 <template>
-  <Navbar :links="navLinks" />
-
-  <router-view></router-view>
+    <Navbar :links="navLinks" />
+    <div class="bg-priory-cream">
+        <router-view></router-view>
+    </div>
 </template>
 
 <script setup>
@@ -15,19 +16,19 @@
 import Navbar from './components/UI/Navigation/Navbar.vue';
 
 const navLinks = [
-  {
-    title: 'Home',
-    link: '/'
-  }, {
-    title: 'Accommodation',
-    link: '/accommodation'
-  }, {
-    title: 'See & Do',
-    link: '/see-and-do'
-  }, {
-    title: 'Booking',
-    link: '/booking'
-  },
+    {
+        title: 'Home',
+        link: '/'
+    }, {
+        title: 'Accommodation',
+        link: '/accommodation'
+    }, {
+        title: 'See & Do',
+        link: '/see-and-do'
+    }, {
+        title: 'Booking',
+        link: '/booking'
+    },
 ]
 </script>
 
