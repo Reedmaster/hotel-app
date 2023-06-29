@@ -19,6 +19,7 @@
 
 <script setup>
 import Wrapper from './Wrapper.vue';
+import img1 from '/resources/images/bedroom.jpg';
 import { computed } from 'vue';
 
 const props = defineProps({
@@ -33,7 +34,6 @@ const props = defineProps({
     }
 });
 
-import img1 from `/resources/images/${props.imgSrc}.jpg`;
 </script>
 
 <style lang="scss" scoped></style>
