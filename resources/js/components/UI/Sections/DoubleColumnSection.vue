@@ -7,7 +7,7 @@
             <div class="flex-1">
                 <img :src="img1" alt="">
             </div>
-            <div class="flex-1 flex flex-col justify-center" :class="{
+            <div class="flex flex-1 flex-col justify-center" :class="{
                 'items-end': imgAlign === 'left',
                 'items-start': imgAlign === 'right',
             }">
