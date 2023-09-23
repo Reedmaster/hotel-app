@@ -8,6 +8,7 @@
 
 <script setup>
 import SlashIcon from "./components/SlashIcon.vue";
+import ArrowRightIcon from "./components/ArrowRightIcon.vue";
 
 defineProps({
   icon: {
@@ -19,7 +20,8 @@ defineProps({
 });
 
 const iconList = {
-  'slash-icon': SlashIcon
+  'slash-icon': SlashIcon,
+  'arrow-right-icon': ArrowRightIcon,
 }
 </script>
 
