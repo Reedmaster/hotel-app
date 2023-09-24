@@ -3,6 +3,8 @@
       v-if="icon"
       :is="iconList[icon]"
       :color="color"
+      :width="width"
+      :height="height"
   ></component>
 </template>
 
@@ -16,6 +18,14 @@ defineProps({
   },
   color: {
     type: String,
+  },
+  width: {
+    type: String,
+    default: '40px',
+  },
+  height: {
+    type: String,
+    default: '40px',
   },
 });
 

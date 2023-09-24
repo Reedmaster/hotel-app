@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center pl-2.5">
     <router-link class="pr-2.5 font-cardo" :to="link">{{ title }}</router-link>
-    <Icon icon="slash-icon" color="fill-priory-cream" class="w-4" />
+    <Icon icon="slash-icon" color="fill-priory-cream" class="w-4" height="20" width="20" />
   </div>
 </template>
 
